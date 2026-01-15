@@ -15,9 +15,9 @@ class ChatState(TypedDict):
     messages: Annotated[list[BaseMessage], add_messages]
 
 def chat_node(state: ChatState):
-    messsages = state['messages']
-    response = llm.invoke(messsages)
-    return {'messages': messsages + [response]}
+    messages = state['messages']
+    response = llm.invoke(messages)
+    return {'messages': messages + [response]}
 
 checkpointer = InMemorySaver()
 

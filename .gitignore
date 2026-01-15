@@ -2,3 +2,4 @@
 *.env 
 .env 
 *.env 
+LangGraph_ChatBot/_pycache_/*
