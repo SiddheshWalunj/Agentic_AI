@@ -1,5 +1,25 @@
-.env 
-*.env 
-.env 
-*.env 
-LangGraph_ChatBot/_pycache_/*
+# Environment variables
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+LangGraph_venv/
+
+# Databases / checkpoints
+*.db
+*.sqlite
+*.bin
+*-checkpoint*
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
