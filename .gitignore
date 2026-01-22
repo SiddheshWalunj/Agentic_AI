@@ -1,5 +1,6 @@
 .env 
 *.env 
-.env 
-*.env 
-LangGraph_ChatBot/_pycache_/*
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
