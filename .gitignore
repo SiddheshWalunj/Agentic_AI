@@ -1,6 +1,14 @@
-.env 
-*.env 
+# Python cache
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
+
+# Virtual environments
+LangGraph_venv/
+venv/
+.env/
+
+# Databases / checkpoints
+*.db
+*.sqlite
+*.bin
+*-checkpoint*
