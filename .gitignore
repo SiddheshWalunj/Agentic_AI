@@ -23,3 +23,5 @@ LangGraph_venv/
 Thumbs.db
 .vscode/
 .idea/
+
+.indices/
